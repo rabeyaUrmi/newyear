@@ -9,13 +9,15 @@ body{
 .header{
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-position: top center;
-    height: 808px;
+    background-size: cover;
+    height: 1000px;
+    /* background-position: top center; 
+    height: 808px; */
 }
 .banner{
     text-align: right;
-    padding-top: 250px; 
-    margin-left: 1050px;
+    padding-top: 300px; 
+    margin-left: 1250px;
     width: 450px;
 }
 .banner-title{
@@ -24,7 +26,7 @@ body{
     padding-bottom: 15px;
 }
 .banner-description{
-    color: white;
+    color: #eeeeee;
     font-size: 15px;
     padding-bottom: 15px;
 }
@@ -35,4 +37,36 @@ body{
     font-size: 15px;
     color: #005FAC;
     border-radius: 3px;
+}
+
+.failure{
+    display: flex;
+    align-items: center;
+    height: 720px;
+    width: 900px;
+    margin-top: 50px;
+    padding-left: 400px;
+    justify-content: space-between;
+}
+.failures{
+    width: 300px;
+    margin-top: 200px;
+}
+.failure-title{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.failure-description{
+    font-size: 15px;
+    width: 350px;
+    padding-bottom: 15px;
+    color: #6f6c6c;
+}
+.list{
+    font-size: 15px;
+    color: #6f6c6c;
+}
+.list > ul > li{
+    padding-bottom: 10px;
+    margin-left: 20px;
 }
