@@ -1,23 +1,32 @@
 *{
     margin: 0;
     padding: 0;
+    height: auto;
 }
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.header{
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header related styles */
+.header-area{
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 1000px;
-    /* background-position: top center; 
-    height: 808px; */
+    /* background-position: top center;  */
+    background-position: center; 
+    height: 800px;
+    /* background-size: cover; */
+    /* height: 1000px; */
+    width: 100%;
 }
 .banner{
     text-align: right;
-    padding-top: 300px; 
-    margin-left: 1250px;
+    padding-top: 250px; 
+    margin-left: 950px;
     width: 450px;
 }
 .banner-title{
@@ -39,6 +48,10 @@ body{
     border-radius: 3px;
 }
 
+/* Section(failure) related styles */
+.all-failures{
+    margin: 0 auto;
+}
 .failure{
     display: flex;
     align-items: center;
@@ -69,4 +82,40 @@ body{
 .list > ul > li{
     padding-bottom: 10px;
     margin-left: 20px;
+}
+
+/* Section(plan) related styles */
+.plan-title, .plan{
+    text-align: center;
+    margin-top: 50px;
+}
+.plan{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/* Section(mindset) related styles */
+.mindset{
+    background: url('../images/watch.png');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.keep-mindset{
+    margin-top: -220px;
+    margin-left: 100px;
+}
+.mindset-title{
+    color: white;
+    font-size: 25px;
+    width: 300px;
+    margin-bottom: 18px;
+    
 }
