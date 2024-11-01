@@ -35,7 +35,7 @@ main {
     padding-bottom: 15px;
 }
 .banner-description{
-    color: #eeeeee;
+    color: #d5d0d0;
     font-size: 15px;
     padding-bottom: 15px;
 }
@@ -118,4 +118,60 @@ main {
     width: 300px;
     margin-bottom: 18px;
     
+}
+
+/* Footer related styles */
+.footer-part{
+    background-color: black;
+    color: #eeeeee;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.footer-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-description,
+.footer-email,
+.footer-phone{
+    font-size: 12px;
+    width: 330px;
+    color: #cec9c9;
+    margin-bottom: 12px;
+}
+.social-links{
+    width: 500px;
+}
+.social-links a{
+    margin-right: 15px;
+}
+.footer-column{
+    margin: 0 auto;
+    width: 600px;
+    justify-content: space-between;
+    margin-left: 270px;
+}
+.footer-subscribe{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.emaill{
+    border: 1px solid #cec9c9;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color:#cec9c9;
+    width: 180px;
+}
+.btnn{
+    border: none;
+    width: 130px;
+    padding: 15px;
+    font-size: 15px;
+    background: #005FAC;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
 }
